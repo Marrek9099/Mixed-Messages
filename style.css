@@ -1,0 +1,71 @@
+/* Basic Styles */
+
+body{
+    height: 99vh;
+    margin: 0;
+    color: black;
+}
+.align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div {
+    border-top: inherit;
+    border-bottom: inherit;
+    text-align: center;
+    padding: 30px;
+    color: inherit;
+}
+
+
+button {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    color:black;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px; 
+}
+
+button:hover {
+     color: white;
+     background-color: black;
+     border: 2px solid white;
+}
+
+/* Color combinations to be applied randomly thorugh JavaScript */
+
+.colorCombination1 {
+    background-color: #3D155F;
+    border-top: 2px solid #DF678C;
+    border-bottom: 2px solid #DF678C;
+    color:#DF678C;
+}
+.colorCombination2 {
+    background-color: #4831D4;
+    border-top: 2px solid #CCF381;
+    border-bottom: 2px solid #CCF381;
+    color:#CCF381;
+}
+.colorCombination3 {
+    background-color: #FBEAEB;
+    border-top: 2px solid #2F3C7E;
+    border-bottom: 2px solid #2F3C7E;
+    color:#2F3C7E;
+}
+.colorCombination4 {
+    background-color: #1D1B1B;
+    border-top: 2px solid #EC4D37;
+    border-bottom: 2px solid #EC4D37;
+    color:#EC4D37;
+}
+.colorCombination5 {
+    background-color: #8AAAe5;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+    color:#FFF;
+}
